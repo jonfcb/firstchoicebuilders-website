@@ -1,0 +1,16 @@
+body {
+    background-color: #ffffff;
+    padding-top: 20px;
+  }
+  @media (max-width: 767px) {
+    .row {
+      align-items: center;
+    }
+  
+    
+  }
+  .learn-more-button-container {
+    margin-top: 20px;
+    color: orange;
+}
+

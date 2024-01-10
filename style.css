@@ -1,0 +1,647 @@
+ .nav-link{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+ }
+ .nav-link:hover{
+    color: orange;
+ }
+ .carousel{
+    margin-top: 85px;
+ }
+ #Img{
+    width: 100%;
+    height: 500px;
+    
+}
+.logo{
+    width: 100%;
+    height: 60px;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 50%; /* Adjust the width as needed */
+}
+
+#mainSer{
+    color: #000000;
+    font-family: Amita;
+    margin: 20px auto;
+    width: 450px;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 10px double #bc6c25;
+}
+
+#ikona{
+    width: 25%;
+    height: 100px;
+    background-color: rgba(255, 166, 0, 0.522);
+    border-radius: 25%;
+}
+.card{
+    padding-top: 10px;
+}
+#karta{
+    box-shadow: 10px 10px 5px rgb(227, 170, 46);
+    width: 80%;
+    margin-left: 50px;
+}
+.box::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #000000ad, #3b3b3bbf, #77777742, #b9b9b942, #ffffff05);
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+}
+
+.containerr {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header.counter-heading {
+    width: 80vw;
+    height: 35vh;
+    background: linear-gradient(45deg, gold, orangered);
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 1.4rem;
+    padding: 0 .5rem;
+    
+    display: grid;
+    place-items: center;
+    box-shadow: 0 .2rem .2rem #0006;
+
+    
+    transition: .3s ease-in-out;
+}
+
+header h1 {
+    font: 700 2.8rem sans-serif;
+}
+
+header:hover,
+.counter-wrapper:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    filter: saturate(300%);
+    box-shadow: 0 .2rem .2rem #0006;
+}
+
+.counters {
+    width: 80vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counter-wrapper {
+    width: 32%;
+    height: 9rem;
+    
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: .3s ease-in-out;
+    box-shadow: 0 .2rem .2rem #0006;
+
+}
+
+.counter-wrapper:nth-child(1) {
+    background: linear-gradient(45deg, pink, crimson);
+}
+
+.counter-wrapper:nth-child(2) {
+    background: linear-gradient(45deg, cyan, blue);
+}
+
+.counter-wrapper:nth-child(3) {
+    background: linear-gradient(45deg, mediumspringgreen, green);
+}
+
+.counter-icon {
+    font-size: 2.5rem;
+}
+
+.counter-info {
+    color: #fff;
+    text-shadow: 1px 1px 1px #0007;
+}
+
+.counter-info h1.counter {
+    font: normal 2.8rem sans-serif;
+}
+
+.counter-info p {
+    font: normal 1.1rem sans-serif;
+    margin-top: .4rem;
+}
+@media screen and (max-width:600px) {
+
+    .counter-icon {
+        font-size: 2.0rem;
+    }
+    
+    .counter-info h1.counter {
+        font: normal 2.2rem sans-serif;
+    }
+    
+    .counter-info p {
+        font: normal 0.7rem sans-serif;
+    }
+}
+
+.gallery{
+    position:relative;
+    width:300px;
+    height:200px;
+    transform-style:preserve-3d;
+    animation:rotate 35s linear infinite;
+  }
+  
+  @keyframes rotate{
+    from{
+      transform:perspective(1200px) rotateY(0deg);
+    }
+    
+    to{
+      transform:perspective(1200px) rotateY(360deg);
+    }
+  }
+  
+  .gallery span{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-origin:center;
+    transform-style:preserve-3d;
+    transform:rotateY(calc(var(--i) * 45deg)) translateZ(380px);
+  }
+  
+  .gallery span img{
+    position:absolute;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+@import url(https://fonts.bunny.net/css?family=amita:700);
+
+.Wild {
+    background: url(download.jpg)
+        center center/cover no-repeat;
+    min-height: 100vh;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Wild h1 {
+    color: #fefae0;
+    font-family: Amita;
+    margin: 20px auto;
+    width: 450px;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 10px double #bc6c25;
+}
+
+.Wild img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    border: 10px solid #fefae0;
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    transition-duration: 1s;
+}
+
+.Wild img:hover {
+    border: 5px solid #fff;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: none;
+    filter: none;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Services*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+p {
+    margin: 0px;
+}
+
+.container3 {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.card2 .p1 {
+    text-align: center; /* Center-align text */
+}
+
+.card2 .fas.fa-arrow-right {
+    position: absolute;
+    bottom: -20px;
+    background-color: #e4a91d;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgb(37, 250, 225);
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all 0.5s ease;
+}
+
+.card2:hover .fas.fa-arrow-right {
+    bottom: 0px;
+    opacity: 1;
+}
+
+.card2 .fab.fa-envira,
+.fas.fa-cut,
+.fas.fa-people-carry {
+    font-size: 40px;
+    background-color: #0000000d;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #eaa43b;
+}
+
+.card2 .h4 {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.container3 .content {
+    max-width: 300px;
+}
+
+.container3 .content .h-6 {
+    color: #4e9525;
+    font-weight: 600;
+}
+
+.container3 .content .btn.btn-primary {
+    padding: 15px;
+    background-color: #e4a91d;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+}
+
+.card2:hover .fab.fa-envira,
+.card2:hover .fas.fa-cut,
+.card2:hover .fas.fa-people-carry {
+    color: gold;
+    background-color: #e4a91d;
+}
+
+@media (max-width:990px) {
+    .container3 .content {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+
+    .card2 {
+        width: 100%;
+    }
+
+    .content {
+        padding: 25px;
+    }
+}
+
+/*Reviews*/
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1157 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.snip1157 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+figure.snip1157 img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin: 40px 0 0 10px;
+}
+figure.snip1157 blockquote {
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 25px 50px 30px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+}
+figure.snip1157 blockquote:before,
+figure.snip1157 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1157 blockquote:before {
+  top: 25px;
+  left: 20px;
+}
+figure.snip1157 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+figure.snip1157 .arrow {
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fafafa;
+  margin: 0;
+  position: absolute;
+}
+figure.snip1157 .author {
+  position: absolute;
+  bottom: 45px;
+  padding: 0 10px 0 120px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+figure.snip1157 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 500;
+}
+
+#reviews {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+}
+
+/*Why Us*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+* {
+	box-sizing: border-box;
+}
+
+.accordion {
+	margin-bottom: 10px;
+
+	.accordion-btn {
+		position: relative;
+		background-color: #fca50f;
+		background-image: linear-gradient(122deg, #ffb300, #ffa200);
+		border: none;
+		padding: 15px 20px;
+		text-align: left;
+		cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    list-style-image: none;
+    
+    &::-webkit-details-marker {
+      background: none;
+      color: transparent;
+    }
+
+		&::after {
+			content: "›";
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      font-size: 35px;
+      font-family: monospace;
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      border-radius: 50%;
+      color: #000000;
+      border: 2px solid #000000;
+      transform: translate(0%, -50%) rotate(0deg);
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding-bottom: 4px;
+      padding-left: 2px;
+      justify-content: center;
+      font-weight: normal;
+      transition: all .3s ease;
+		}
+	}
+  
+  .accordion-content {
+		background-color: #ffffff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    
+    > *{
+      padding: 10px 20px;
+    }
+	}
+
+  &[open]{
+    .accordion-btn::after {
+	    transform: translate(0%, -50%) rotate(90deg);
+    }
+    
+    summary ~ *{
+      overflow: hidden;
+      animation: heightUp 1s ease-in-out;
+    }
+	}
+}
+
+@keyframes heightUp {
+    0% {
+        max-height: 0;
+    }
+    100% {
+        max-height: 2000px; 
+    }
+}
+#para{
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: center;
+}
+.accordion{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*Footer*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+.card4.bg-white {
+    background-color: black !important;
+    color: white; /* Change text color to white for better visibility on a black background */
+}
+
+ul>li {
+    color:#ffffff;
+}
+
+ul>li:hover {
+    color: #f9af1b;
+    cursor: pointer
+}
+
+hr {
+    border-width: 3px
+}
+
+
+.social>i {
+    padding: 1%;
+    font-size: 15px
+}
+
+.social>i:hover {
+    color: #957bda;
+    cursor: pointer
+}
+
+.policy>div {
+    padding: 4px
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 162, 81)
+}
+
+.divider {
+    border-top: 2px solid
+}
+.footer-text {
+    padding: 0; /* Remove padding for the footer text */
+}
+
+.footer-text h1 {
+    margin: 0; /* Remove margin for the h1 elements inside footer text */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    padding: 0;
+    margin: 0;
+}
+
+.policy > div {
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 767px) {
+    #reviews {
+      flex-direction: column; /* Change to a vertical layout */
+      align-items: center;
+    }
+    #para{
+        padding-left: 0%;
+        padding-right: 0%;
+        align-items: center;
+    }
+    #services{
+         align-items: start;
+    }
+    figure.snip1157 {
+      width: 100%; /* Take full width on smaller screens */
+    }
+    .carousel-caption {
+        position: static;
+        text-align: center;
+    }
+
+    .carousel-inner img {
+        object-fit: cover;
+    }
+    #footer{
+        align-items: center;
+    }
+    .display-2{
+        font-size: 0.5em;
+    }
+  }

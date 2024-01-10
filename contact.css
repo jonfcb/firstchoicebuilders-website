@@ -1,0 +1,65 @@
+body {
+    background-color: #ff9100;
+    color: #fff;
+    padding-top: 20px;
+  }
+
+  .container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+    color: #ffa500; /* Orange color */
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    margin-bottom: 10px;
+  }
+
+  .form-control {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #ffa500; /* Orange color */
+  }
+
+  .btn-dark {
+    background-color: #ffa500; /* Orange color */
+    border: 1px solid #ffa500; /* Orange color */
+  }
+
+  .btn-dark:hover {
+    background-color: #ff8c00; /* Darker orange on hover */
+    border: 1px solid #ff8c00; /* Darker orange on hover */
+  }
+
+
+  #map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 30px;
+  }
+
+  .section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px; /* Shto këtë lloj dimensioni për secilin seksion */
+  }
+
+  #contact-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+
