@@ -13,6 +13,9 @@
     height: 500px;
     
 }
+.display-2{
+    font-size: 3em;
+}
 .logo{
     width: 100%;
     height: 60px;
@@ -614,6 +617,9 @@ ul > li {
     padding: 0;
     margin: 0;
 }
+#services{
+    padding-left: 120px;
+}
 @media (max-width: 767px) {
     #reviews {
       flex-direction: column; /* Change to a vertical layout */
@@ -623,9 +629,6 @@ ul > li {
         padding-left: 0%;
         padding-right: 0%;
         align-items: center;
-    }
-    #services{
-         align-items: start;
     }
     figure.snip1157 {
       width: 100%; /* Take full width on smaller screens */
@@ -644,4 +647,23 @@ ul > li {
     .display-2{
         font-size: 0.5em;
     }
+    #mainSer{
+        width: 350px;
+        font-size: 2rem;
+    }
+    #mainSer2{
+        width: 350px;
+        font-size: 2rem;
+    }
+    .counter-info h1.counter {
+        font: normal 1.5rem sans-serif;
   }
+  #services{
+    padding-left: 15px;
+}
+.display-2{
+    font-size: 1em;
+}
+
+}
+  
