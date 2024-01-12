@@ -87,3 +87,12 @@
   opacity: .35;
   transform: scale(1);
   }
+  @media (max-width: 767px) {
+    p {
+      font-size: 0.8em;
+    }
+    .img-list li {
+      width: 100%;
+  }
+}
+  
