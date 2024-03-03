@@ -1,0 +1,56 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the header */
+h1 {
+  text-align: center;
+  margin-top: 0;
+  color: #333;
+  font-size: 36px;
+}
+
+/* Style for the lead paragraph */
+p.lead {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Style for the section headings */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 40px;
+}
+
+/* Style for the paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Style for the image containers */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Style for the images */
+.image-container img {
+  width: 45%; /* Adjust image width as needed */
+  border-radius: 8px;
+}
+
+/* Clearfix to prevent image overflow */
+.image-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
