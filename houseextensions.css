@@ -5,6 +5,85 @@
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.photo-gallery {
+  color:#313437;
+  background-color:#f6a510;
+}
+
+.photo-gallery p {
+  color:#7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+.img-fluid {
+  width: 100%; /* Ensure images fill their container */
+  height: auto; /* Maintain aspect ratio */
+}
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+.contact-us-section {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 40px 20px; /* Padding for spacing */
+  margin: 40px 0; /* Margin for spacing above and below */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.contact-us-section h2 {
+  color: #333; /* Text color */
+  margin-bottom: 20px; /* Spacing below the heading */
+  font-size: 24px; /* Font size for heading */
+  font-weight: bold; /* Bold text */
+}
+
+.contact-us-section p {
+  color: #666; /* Text color */
+  margin-bottom: 30px; /* Spacing below the paragraph */
+  font-size: 16px; /* Font size for paragraph */
+}
+
+.btn-special {
+  background-color: #ff6f61; /* Custom button color */
+  color: #fff; /* Text color */
+  padding: 15px 30px; /* Padding for button */
+  font-size: 18px; /* Font size for button text */
+  border-radius: 5px; /* Rounded corners for button */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.btn-special:hover {
+  background-color: #e65c55; /* Darker color on hover */
+}
+
 
 /* Style for the header */
 h1 {
