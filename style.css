@@ -622,6 +622,8 @@ ul > li {
 #services{
     padding-left: 120px;
 }
+
+/*reviews*/
 @media (max-width: 767px) {
     #reviews {
       flex-direction: column; /* Change to a vertical layout */
