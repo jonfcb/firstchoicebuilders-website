@@ -24,7 +24,7 @@ body {
   }
 
   .form-control {
-    background-color: #444;
+    background-color: #e8e8e8;
     color: #fff;
     border: 1px solid #ffa500; /* Orange color */
   }
@@ -59,7 +59,6 @@ body {
   }
 
   #contact-info {
-    text-align: center;
     margin-top: 20px;
   }
 
