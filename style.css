@@ -16,6 +16,14 @@
 .display-2{
     font-size: 3em;
 }
+.photo-gallery {
+    color:#313437;
+    background-color:#f6a510;
+  }
+  
+  .photo-gallery p {
+    color:#000000;
+  }
 .logo{
     width: 100%;
     height: 60px;
@@ -44,6 +52,23 @@
     background-color: rgba(255, 166, 0, 0.522);
     border-radius: 25%;
 }
+.phone-square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px; /* Gjërësia e kuadratit */
+    height: 50px; /* Lartësia e kuadratit */
+    background-color: orange; /* Ngjyra e sfondit */
+    border-radius: 15px; /* Këndet e rrumbullakosura */
+    margin-right: 15px; /* Distanca nga elementët tjerë */
+}
+
+.phone-number {
+    font-size: 16px; /* Madhësia e tekstit */
+    font-weight: bold; /* Trashësia e tekstit */
+    color: white; /* Ngjyra e tekstit */
+}
+
 .card{
     padding-top: 10px;
 }
@@ -641,7 +666,13 @@ ul > li {
         position: static;
         text-align: center;
     }
-
+    .phone-square{
+        width: 100px;
+        height: 40px 
+    }
+    .phone-number{
+        font-size: 13px;
+    }
     .carousel-inner img {
         object-fit: cover;
     }
