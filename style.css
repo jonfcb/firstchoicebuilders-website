@@ -251,8 +251,8 @@ header:hover,
     height: 300px;
     margin: 10px;
     border: 10px solid #fefae0;
-    -webkit-filter: sepia(100%);
-    filter: sepia(100%);
+    /*-webkit-filter: sepia(100%);*/
+    /*filter: sepia(100%);*/
     transition-duration: 1s;
 }
 
