@@ -703,5 +703,38 @@ ul > li {
     width: 310px;
     height: 200px 
 
-}}
+}.logo {
+    max-width: 100%;
+    height: auto; /* Siguron që lartësia të përshtatet me përmasat e logos */
+}
+
+/* Për pajisje me ekran më të vogël (p.sh., iPhone) */
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 120px;  /* Mund të rregullosh këtë përmasë sipas nevojës */
+        height: auto;
+    }
+    .logo1 {
+        max-width: 80px;
+        height: auto; /* Siguron që lartësia të përshtatet me përmasat e logos */
+    }
+    .footer-title{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .logo {
+        width: 150px;  /* Mund të rregullosh këtë përmasë sipas nevojës */
+        height: auto;
+    }
+    .logo1 {
+        max-width: 110px;
+        height: auto; /* Siguron që lartësia të përshtatet me përmasat e logos */
+    }
+}
+
+}
+  
+
   
